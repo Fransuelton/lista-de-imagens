@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.list {
+    display: flex;
+}
+
+.paint {
+   margin: 0 20px;
+}
+
+.rome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../images/rome.png);
+    width: 335px;
+}
+
+.boat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../images/boat.png);
+    width: 335px;
+    height: 432px;
+}
+
+.sand-and-sea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../images/sand-and-sea.png);
+    width: 335px;
+    height: 432px;
+}
+
+.starry-night {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../images/starry-night.png);
+    width: 335px;
+    height: 432px;
+}
+
+.painting-name {
+    padding: 0px 26px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.painter {
+    padding: 5px 0px 43px 26px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+}
+
